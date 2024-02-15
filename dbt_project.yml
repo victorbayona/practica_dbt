@@ -42,5 +42,10 @@ models:
       +materialized: table
 
 seeds:
-  +schema: SEEDS
+  +schema: "solo"
   +database: "ESPECIALIDAD_SQL_BRONZE_DB_VBM"
+
+quoting:
+  database: false
+  schema: false
+  identifier: false
