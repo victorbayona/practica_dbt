@@ -40,3 +40,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+seeds:
+  +database: "ESPECIALIDAD_SQL_BRONZE_DB_VBM"
+  +schema: "SEEDS"
